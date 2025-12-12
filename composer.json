@@ -1,5 +1,24 @@
 {
-  "name": "Pos-Order",
-  "version": "1.0.0",
-  "description": "A pos Package"
+  "name": "vendor/pos-order-service",
+  "description": "POS Order Service package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PosOrder\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PosOrder\\PosOrderServiceProvider"
+      ],
+      "aliases": {
+        "PosOrder": "PosOrder\\Facades\\PosOrder"
+      }
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
 }
