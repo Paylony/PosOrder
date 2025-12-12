@@ -2,10 +2,9 @@
   "name": "paylony/pos-order",
   "description": "POS Order Service package",
   "type": "library",
-  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "PosOrder\\": "src/"
+      "PosOrder\\": ""
     }
   },
   "extra": {
