@@ -1,5 +1,5 @@
 {
-  "name": "vendor/pos-order-service",
+  "name": "paylony/pos-order",
   "description": "POS Order Service package",
   "type": "library",
   "license": "MIT",
